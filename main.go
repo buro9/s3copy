@@ -265,7 +265,7 @@ func runTasks(
 					}
 					errs = append(
 						errs,
-						fmt.Errorf("Failed on ID %d : %+v", id, err),
+						fmt.Errorf("Failed on ID %s : %+v", id, err),
 					)
 					break
 				}
